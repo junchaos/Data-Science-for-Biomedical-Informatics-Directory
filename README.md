@@ -30,9 +30,7 @@ genes.
 
 4). Classifcation Analysis 
 
-Using the top 3 proteins identified through the differential expression analysis, we next trained a logistic-regression based classification model, with 5-fold cross
-validation over 50 iterations, to understand how well the top 3 proteins we identified - BSP, OMD and ApoM - together with age and sex, can help differentiate PD
-subjects from control subjects.  
+Using the top 3 proteins identified through the differential expression analysis, we next trained a logistic-regression based classification model, validated with 5-fold cross validation over 50 iterations, to understand how well the top 3 proteins we identified - BSP, OMD and ApoM - together with age and sex, can help differentiate PD subjects from control subjects.  
 
 B) Longitudinal Analysis (Cognitive Function)
 
