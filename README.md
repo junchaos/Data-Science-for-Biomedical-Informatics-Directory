@@ -1,11 +1,16 @@
 # Data-Science-for-Biomedical-Informatics-Directory
 BMIN 503
 
-This project aims to conduct a large-scale proteomic analysis to screen potential plasma proteins that can A) differentiate PD from normal control B) differentiate 
+Abstract: This project aims to conduct a large-scale proteomic analysis to screen potential plasma proteins that can A) differentiate PD from normal control B) differentiate 
 fast cognitive progressors from slow cognitive progressors based on change in MoCA score change over time C) differentiate fast motor progressors from slow motor
 progressors based on change in UPDRS score over time 
 
-Background: Datasets used for this project were downloaded from NIH Parkinson's Disease Biomarker Program database. A total of 319 PD + Normal Control Subjects were enrolled in this study through two different cohorts - University of Texas Southwestern School of Medicine and Penn State Hershey School of Medicine. A total of ~1100 plasma proteins were measured in all 319 subjects through a high through-put proteomic platform known as SomaScan. Clinical and demographic information for these patients were also collected at each cohort. 
+Background: Parkinson's Disease (PD) is the second most common neurodegenerative disease affecting over 2 million people in the United States. Patients with Parkinson's Disease demonstrated a series of cognitive, motor and psycholic symptoms. However, up to date, there still weren't any cliniaclly validated blood based diagnostic test that can quickly help clinicians to confirm the diagnosis of PD. The fact that different Parkinson's patients displayed highly heterogenous 
+sypmtoms raised further challenges to the development of such tests. Therefore, the goal of this project is to identify any potential biomarkers associated with the diagnosis and prognosis of PD, and based on that trained a classifier that can 1) differente PD patients from non-PD patients 2) different PD patients with a faster progression rate from slowly progressing PD patients with high performance. 
+
+
+
+Data Source: Datasets used for this project were downloaded from NIH Parkinson's Disease Biomarker Program database. A total of 319 PD + Normal Control Subjects were enrolled in this study through two different cohorts - University of Texas Southwestern School of Medicine and Penn State Hershey School of Medicine. A total of ~1100 plasma proteins were measured in all 319 subjects through a high through-put proteomic platform known as SomaScan. Clinical and demographic information for these patients were also collected at each cohort. 
 
 Analysis Plan:
 
