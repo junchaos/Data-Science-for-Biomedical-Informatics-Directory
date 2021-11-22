@@ -5,10 +5,7 @@ This project aims to conduct a large-scale proteomic analysis to screen potentia
 fast cognitive progressors from slow cognitive progressors based on change in MoCA score change over time C) differentiate fast motor progressors from slow motor
 progressors based on change in UPDRS score over time 
 
-Background: Datasets are downloaded from NIH Parkinson's Disease Biomarker Program database. A total of 319 PD + Normal Control Subjects were enrolled in this study
-through two different cohorts - University of Texas Southwestern School of Medicine and Penn State Hershey School of Medicine. A total of ~1100 plasma proteins were
-measured in all 319 subjects through a high through-put proteomic platform known as SomaScan. Clinical and demographic information for these patients were also 
-collected at each medical center. 
+Background: Datasets used for this project were downloaded from NIH Parkinson's Disease Biomarker Program database. A total of 319 PD + Normal Control Subjects were enrolled in this study through two different cohorts - University of Texas Southwestern School of Medicine and Penn State Hershey School of Medicine. A total of ~1100 plasma proteins were measured in all 319 subjects through a high through-put proteomic platform known as SomaScan. Clinical and demographic information for these patients were also collected at each cohort. 
 
 Analysis Plan:
 
@@ -16,7 +13,7 @@ A. Cross Section Analysis
 
 1) Data Cleaning and Outlier Detection
 
-Since those samples were collected from two different cohorts. It was helpful to start with a principle component analysis (PCA) to detect any potential batch effect.
+Since those samples were collected from two different cohorts, it would be helpful to start with a principle component analysis (PCA) to detect any potential batch effect.
 Besides, PCA analysis can help us quickly identify if there's any significant outliers so that we can remove outliers before formal analysis 
 
 2) Differential Expression Analysis 
